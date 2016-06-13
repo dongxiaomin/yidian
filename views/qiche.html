@@ -1,0 +1,51 @@
+<div id="qiche">
+	<ul class="tou">
+		<li>车型大全</li>
+		<li>违章查询</li>
+		<li>新车资讯</li>
+		<li>购车指南</li>
+	</ul>
+		<div class="content3 ">
+		<div class="content3-z">
+			<h3>一年之中什么时候买车最合适</h3>
+			<div class="main">
+				<ul >
+					<li>凤凰网</li>
+					<li>1评</li>
+				</ul>
+			</div>
+			<img src="./image/ss/1.png" alt="">
+		</div>
+		<div class="content3-y">
+			<img src="./image/qc/1.png" alt="">
+		</div>
+	</div>
+
+	<div class="content" ng-repeat="v in qcs">
+		<div class="zhong">
+			<div class="title">{{v.title}}</div>
+			<ul class="row" >
+				<li>
+					<img src="{{v.img1}}" alt="">
+				</li>
+				<li>
+					<img src="{{v.img2}}" alt="">
+				</li>
+				<li>
+					<img src="{{v.img3}}" alt="">
+				</li>
+			</ul>
+		</div>
+		<div class="xia row">
+			<div class="xz ">
+				<ul class="row">
+					<li>{{v.wang}}</li>
+					<li>{{v.time}}</li>
+					<li>{{v.time2}}</li>
+				</ul>
+			</div>
+			<dsiv class="xy">
+				<img src="./image/ss/1.png" alt="">
+			</div>
+	</div>
+</div>

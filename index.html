@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="yidianapp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <meta name="viewport" content="width=device-width">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="微信">
+  <!-- <link rel="icon" sizes="192x192" href="image/logo.png"> -->
+  <title>yidian</title>
+    <link rel="stylesheet" href="./css/materialize.css">
+    <link href="./css/swiper.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/angular.js"> </script>
+    <script type="text/javascript" src="./js/angular-animate.js"> </script>
+    <script type="text/javascript" src="./js/angular-route.js"> </script>
+    <script type="text/javascript" src="./js/swiper.js"></script>
+    <script type="text/javascript" src="./js/index.js"> </script>
+    <script src="./js/luobo.js"></script>
+</head>
+<body ng-controller="indexCtrl">
+<yd-yindao></yd-yindao>
+ <yd-header></yd-header>
+ <ng-view></ng-view>
+ <yd-footer></yd-footer>
+  
+</body>
+</html>

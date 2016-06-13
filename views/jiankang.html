@@ -1,0 +1,71 @@
+<div id="jiankang">
+	<ul class="tou">
+		<li>常见病症</li>
+		<li>相关视频</li>
+		<li>养生</li>
+		<li>夏季健康</li>
+	</ul>
+	<div class="content" >
+		<div class="zhong">
+			<div class="title">酸奶这样喝 简直抵燕窝</div>
+			<ul class="row" >
+				<img src="./image/jk/2.png" alt="">
+			</ul>
+		</div>
+		<div class="xia row">
+			<div class="xz ">
+				<ul class="row">
+					<li>健康朝九晚五</li>
+					<li>28评</li>
+					<li>3小时前</li>
+				</ul>
+			</div>
+			<dsiv class="xy">
+				<img src="./image/ss/1.png" alt="">
+			</div>
+	</div>
+	<div class="content" >
+		<div class="zhong">
+			<div class="title">警告：肝病患者一定要远离这8种食物</div>
+			<ul class="row" >
+				<li>
+					<img src="./image/jk/1.1.png" alt="">
+				</li>
+				<li>
+					<img src="./image/jk/1.2.png" alt="">
+				</li>
+				<li>
+					<img src="./image/jk/1.3.png" alt="">
+				</li>
+			</ul>
+		</div>
+		<div class="xia row">
+			<div class="xz ">
+				<ul class="row">
+					<li>健康朝九晚五</li>
+					<li>28评</li>
+					<li>3小时前</li>
+				</ul>
+			</div>
+			<dsiv class="xy">
+				<img src="./image/ss/1.png" alt="">
+			</div>
+	</div>
+	
+	<div class="content3 " ng-repeat="v in jks">
+		<div class="content3-z">
+			<h3>{{v.title}}</h3>
+			<div class="main">
+				<ul >
+					<li>{{v.wang}}</li>
+					<li>{{v.time}}</li>
+				</ul>
+			</div>
+			<img src="./image/jk/3.png" alt="">
+		</div>
+		<div class="content3-y">
+			<img src="{{v.img1}}" alt="">
+		</div>
+	</div>
+	<div class="tu"></div>
+</div>

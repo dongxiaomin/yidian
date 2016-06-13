@@ -1,0 +1,22 @@
+<div class="tou">
+  <div class="header" id="header">
+    <div class="header-inner">
+      <div class="header-l"> </div>
+      <div class="header-c">
+        <div class="search"></div>
+        <input type="text" placeholder="大家都在搜：最严奶粉配方">
+      </div>
+       <a href="/#/denglu"><div class="denglu"></div></a>
+    </div>
+  </div>
+  <div class="nav" id="nav">
+    <ul>
+    <div class="row">
+        <li ng-repeat="v in dhs">
+          <a href="#/{{v.lianjie}}" ng-class="{active:name=='{{v.name}}'}" ng-click="name='{{v.name}}'">{{v.name}}</a>
+       </li>
+    </div>
+     <li class="add"> <img src="./image/add.png" alt=""></li>
+   </ul>
+ </div>
+</div>

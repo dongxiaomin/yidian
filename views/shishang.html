@@ -1,0 +1,37 @@
+<div id="shishang">
+	<ul class="tou">
+		<li>穿衣搭配</li>
+		<li>美容</li>
+		<li>化妆</li>
+		<li>发型</li>
+	</ul>
+	<div class="content" ng-repeat="v in sss">
+		<div class="zhong">
+			<div class="title">{{v.title}}</div>
+			<ul class="row" >
+				<li>
+					<img src="{{v.img1}}" alt="">
+				</li>
+				<li>
+					<img src="{{v.img2}}" alt="">
+				</li>
+				<li>
+					<img src="{{v.img3}}" alt="">
+				</li>
+			</ul>
+		</div>
+		<div class="xia row">
+			<div class="xz ">
+				<ul class="row">
+					<li>{{v.wang}}</li>
+					<li>{{v.time}}</li>
+					<li>{{v.time2}}</li>
+				</ul>
+			</div>
+			<dsiv class="xy">
+				<img src="./image/ss/1.png" alt="">
+			</div>
+	</div>
+	<div class="tu"></div>
+</div>
+

@@ -1,0 +1,44 @@
+<div id="tuijian">
+	<div class="content1">
+		<div class="title">习近平对科学工作者有哪五大要求？</div>
+		<ul class="row">
+			<li class="zhiding">置顶</li>
+			<li>一点资讯</li>
+			<li>11评</li>
+			<li>1分钟前</li>
+		</ul>
+		<div class="zhiding1"></div>
+		<div class="you"><img src="./image/tj/1.png" alt=""></div>
+	</div>
+	<div class="content" ng-repeat="v in tjs">
+		<div class="zhong">
+			<div class="title">{{v.title}}</div>
+			<ul class="row" >
+				<li>
+					<img src="{{v.img1}}" alt="">
+				</li>
+				<li>
+					<img src="{{v.img2}}" alt="">
+				</li>
+				<li>
+					<img src="{{v.img3}}" alt="">
+				</li>
+			</ul>
+		</div>
+		<div class="xia row">
+			<div class="xz ">
+				<ul class="row">
+					<li>{{v.wang}}</li>
+					<li>{{v.time}}</li>
+					<li>{{v.time2}}</li>
+				</ul>
+			</div>
+			<dsiv class="xy">
+				<img src="./image/ss/1.png" alt="">
+			</div>
+	</div>
+	<div class="shuaxin">
+		上次刷新到此，点击刷新
+	</div>
+	<div class="tu"></div>
+</div>

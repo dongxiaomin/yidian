@@ -1,0 +1,53 @@
+<div id="diantai">
+	<!-- 轮播图 -->
+  <div class="banner">
+     <div class="swiper-container">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+              	<a href="#"><img src="./image/dt/a.png" alt=""></a>
+              </div>
+              <div class="swiper-slide">
+              	<a href="#"><img src="./image/dt/b.png" alt=""></a>
+              </div>
+              <div class="swiper-slide">
+              	<a href="#"><img src="./image/dt/c.png" alt=""></a>
+              </div>
+               <div class="swiper-slide">
+                <a href="#"><img src="./image/dt/d.png" alt=""></a>
+              </div>
+               <div class="swiper-slide">
+                <a href="#"><img src="./image/dt/e.png" alt=""></a>
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="xinwen" ng-repeat="v in dts">
+    	<div class="tou">
+    		<div class="zuo">
+    			{{v.timu}}
+    			<img src="./image/dt/4.png" alt="">
+    		</div>
+    		<div class="you">
+    			{{v.more}}
+    			<img src="./image/dt/5.png" alt="">
+    		</div>
+    	</div>
+    	<div class="body">
+    		<ul class="row" >
+    			<li>
+    				<div class="image1"><img src="{{v.image1}}" alt=""></div>
+    				<div class="tit1">{{v.tit1}}</div>
+    			</li>
+    			<li>
+    				<div class="image2"><img src="{{v.image2}}" alt=""></div>
+    				<div class="tit2">{{v.tit2}}</div>
+    			</li>
+    			<li>
+    				<div class="image3"><img src="{{v.image3}}" alt=""></div>
+    				<div class="tit3">{{v.tit3}}</div>
+    			</li>
+    		</ul>
+    	</div>
+    </div>
+    <div class="tu"></div>
+</div>

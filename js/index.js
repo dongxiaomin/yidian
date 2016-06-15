@@ -6,8 +6,8 @@ yd.controller('indexCtrl',['$scope',function($scope){
 		{name:'时尚',lianjie:'shishang'},
 		{name:'汽车',lianjie:'qiche'},
 		{name:'健康',lianjie:'jiangkang'},
-		// {name:'科技',lianjie:'keji'},
-		// {name:'视频',lianjie:'shipin'},
+		{name:'科技',lianjie:'keji'},
+		{name:'视频',lianjie:'shipin'},
 	]
 	$scope.yys = [
 		{name:'一点资讯',image:'./image/x1.png'},

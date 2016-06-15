@@ -24,7 +24,7 @@ yd.controller('yidaoCtrl',['$scope',function($scope){}])
 yd.controller('tuijianCtrl',['$scope',function($scope){
 	$scope.tjs = [
 		{title:'内涵段子，搞笑笑话：告诉大家一个发财的好项目',img1:'./image/tj/1.1.png',img2:'./image/tj/1.2.png',img3:'./image/tj/1.3.png',wang:'北方网',time:'1评',time2:'1分钟前'},
-		{title:'死在嘴上，病在腿上盾一遍年轻10岁',img1:'./image/tj/2.1.png',img2:'./image/tj/2.2.png',img3:'./image/tj/2.3.png',wang:'悦已女性网',time:'3评',time2:'1分钟前'},
+		{title:'死在嘴上，病在腿上看一遍年轻10岁',img1:'./image/tj/2.1.png',img2:'./image/tj/2.2.png',img3:'./image/tj/2.3.png',wang:'悦已女性网',time:'3评',time2:'1分钟前'},
 		{title:'同在一个起跑线，唐婧都红到发黑了，即却空有实力无名气！',img1:'./image/tj/3.1.png',img2:'./image/tj/3.2.png',img3:'./image/tj/3.3.png',wang:'私人挑款师',time:'1000+评',time2:'1分钟前'},
 		{title:'她出众屡获影后，却因一部电视剧，永远无法翻身！',img1:'./image/tj/4.1.png',img2:'./image/tj/4.2.png',img3:'./image/tj/4.3.png',wang:'YOKO时尚网',time:'10评',time2:'1分钟前'},
 	]
